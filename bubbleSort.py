@@ -11,7 +11,8 @@ def bubbleSort(arr):
                 swapped = True
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
     
-    if not swapped: return 
-    
-arr = [3, 2, 5, 4, 1]
-print(bubbleSort(arr))
+        if not swapped: return 
+
+arr = [1, 2, 3, 4, 5]
+bubbleSort(arr)
+print(arr)
