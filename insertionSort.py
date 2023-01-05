@@ -10,7 +10,7 @@ def insertSort(arr):
             j = j - 1
         arr[j + 1] = key
 
-    return arr
+    return arr 
 
-arr = [3, 2, 5, 4, 1]
+arr = [3, 2, 5, 4, 1, 6]
 print(insertSort(arr))
